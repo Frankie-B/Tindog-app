@@ -91,14 +91,17 @@ i.icon:hover {
 #testimonials {
   color: #fff;
   background-color: #ef8172;
-  padding: 7% 15%;
   text-align: center;
 }
 
-.testimonials-img {
+.testimonial-img {
   border-radius: 100%;
   margin: 20px;
   width: 10%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
 }
 
 /* Press section */
