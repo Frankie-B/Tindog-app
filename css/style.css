@@ -18,15 +18,21 @@ h1 {
   line-height: 1.5;
 }
 
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
 h3 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  font-size: 1.3rem;
+  font-weight: 700;
+  font-size: 1.4rem;
 }
 
 p {
   color: #8f8f8f;
-
 }
 
 /* Navigation bar */
@@ -60,11 +66,10 @@ p {
   width: 60%;
 }
 
-/* Features */
+/* Features section */
 #features {
   font-family: 'Montserrat', sans-serif;
   padding: 7% 15%;
-
 }
 
 .feature-box {
@@ -77,6 +82,33 @@ i.icon {
   font-size: 4rem;
   margin-bottom: 1rem;
 }
+
 i.icon:hover {
   color: #ff4c68;
+}
+
+/* Testimonials section */
+#testimonials {
+  color: #fff;
+  background-color: #ef8172;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.testimonials-img {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+/* Press section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 15%;
 }
